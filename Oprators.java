@@ -1,3 +1,5 @@
+import java.lang.*;
+
 public class Oprators {
     public static void main(String[] args) {
         int a = 10;
@@ -61,6 +63,8 @@ public class Oprators {
 
         int bit = a ^ 16;
         System.out.println(bit);
+        System.out.println(~-17);
+        System.out.println(-5 >>> 1);
 
     }
 
